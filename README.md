@@ -13,4 +13,4 @@ Executar os seguintes comandos na pasta do projeto:
 Alterar arquivo .env, inserir configurações de acesso ao banco de dados.
 Inserir no arquivo .env a linha abaixo, com a chave API key Google Maps Plataform.
 
-MAPS_KEY=chave_APY_Key_Google_Maps
+>MAPS_KEY=chave_APY_Key_Google_Maps
