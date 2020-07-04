@@ -1,0 +1,205 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 502
+  ClientWidth = 351
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Position.X = -1.000000000000000000
+    Position.Y = -10.000000000000000000
+    Size.Width = 354.000000000000000000
+    Size.Height = 515.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      354s
+      489s
+      354s
+      489s
+      354s
+      489s)
+    object Login: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 16.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 0
+        KeyboardType = EmailAddress
+        Text = 'email@email.com'
+        TextSettings.Font.Family = 'Arial Rounded MT'
+        TextSettings.Font.Size = 18.000000000000000000
+        Position.X = 13.000000000000000000
+        Position.Y = 120.000000000000000000
+        Size.Width = 325.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Style, FontColor]
+      end
+      object Edit2: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 1
+        Password = True
+        Text = 'password'
+        TextSettings.Font.Family = 'Arial'
+        TextSettings.Font.Size = 18.000000000000000000
+        Position.X = 12.000000000000000000
+        Position.Y = 240.000000000000000000
+        HelpType = htKeyword
+        Size.Width = 325.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Style, FontColor]
+      end
+      object Label3: TLabel
+        StyledSettings = [Family]
+        Position.X = 14.000000000000000000
+        Position.Y = 86.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 22.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claDodgerblue
+        Text = 'Seu Email'
+        TabOrder = 3
+      end
+      object Label4: TLabel
+        StyledSettings = [Family]
+        Position.X = 14.000000000000000000
+        Position.Y = 206.000000000000000000
+        Size.Width = 121.000000000000000000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 22.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claDodgerblue
+        Text = 'Sua Senha'
+        TabOrder = 2
+      end
+      object Button1: TButton
+        StyledSettings = [Family]
+        Position.X = 96.000000000000000000
+        Position.Y = 326.000000000000000000
+        Size.Width = 161.000000000000000000
+        Size.Height = 43.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = 'ENTRAR'
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claSteelblue
+        TextSettings.FontColorForState.Pressed = claSteelblue
+        OnClick = Button1Click
+      end
+      object Label2: TLabel
+        Align = Top
+        StyledSettings = [Family]
+        Size.Width = 354.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'Label2Style1'
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claDodgerblue
+        TextSettings.HorzAlign = Center
+        Text = 'Acessar App'
+        TabOrder = 5
+      end
+    end
+    object Lista: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 16.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      object ListView1: TListView
+        ItemAppearanceClassName = 'TDynamicAppearance'
+        ItemEditAppearanceClassName = 'TDynamicAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        Align = Client
+        Size.Width = 354.000000000000000000
+        Size.Height = 449.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+          item
+            AppearanceObjectName = 'Text1'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Width = 400.000000000000000000
+            Appearance.Height = 44.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'Text2'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Width = 400.000000000000000000
+            Appearance.Height = 44.000000000000000000
+            Appearance.PlaceOffset.X = 136.000000000000000000
+          end>
+        ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+          item
+            AppearanceObjectName = 'Text1'
+            AppearanceClassName = 'TTextObjectAppearance'
+          end>
+        OnItemClick = ListView1ItemClick
+      end
+      object ToolBar1: TToolBar
+        Size.Width = 354.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object SpeedButton1: TSpeedButton
+          Align = FitRight
+          StyledSettings = [Family, Size, FontColor]
+          Size.Width = 354.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'refreshtoolbuttonbordered'
+          Text = 'SpeedButton1'
+          OnClick = SpeedButton1Click
+        end
+        object Label1: TLabel
+          StyledSettings = [Family, FontColor]
+          Position.X = 16.000000000000000000
+          Position.Y = 6.000000000000000000
+          Size.Width = 144.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'Atualizar Lista'
+          TabOrder = 0
+        end
+      end
+    end
+    object Filial: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 16.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+    end
+  end
+end
