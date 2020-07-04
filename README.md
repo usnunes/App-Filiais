@@ -1,4 +1,4 @@
-# App-Filiais
+# Web-AppFiliais
 Aplicação Web-AppFiliais:
 
 Executar os seguintes comandos na pasta do projeto:
