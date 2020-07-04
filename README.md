@@ -3,8 +3,11 @@ Aplicação Web-AppFiliais:
 
 Executar os seguintes comandos na pasta do projeto:
 >composer install
+
 >npm install
+
 >php artisan key:generate
+
 >php artisan jwt:secret
 
 Alterar arquivo .env, inserir configurações de acesso ao banco de dados.
