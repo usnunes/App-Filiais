@@ -11,11 +11,11 @@ object Form1: TForm1
   DesignerMasterStyle = 0
   object TabControl1: TTabControl
     Position.X = -1.000000000000000000
-    Position.Y = -11.000000000000000000
+    Position.Y = -27.000000000000000000
     Size.Width = 354.000000000000000000
     Size.Height = 532.000000000000000000
     Size.PlatformDefault = False
-    TabIndex = 0
+    TabIndex = 1
     TabOrder = 0
     TabPosition = PlatformDefault
     Sizes = (
@@ -29,18 +29,17 @@ object Form1: TForm1
       CustomIcon = <
         item
         end>
-      IsSelected = True
+      IsSelected = False
       Size.Width = 16.000000000000000000
       Size.Height = 26.000000000000000000
       Size.PlatformDefault = False
       StyleLookup = ''
       TabOrder = 0
-      ExplicitSize.cx = 16.000000000000000000
-      ExplicitSize.cy = 26.000000000000000000
       object Edit1: TEdit
         Touch.InteractiveGestures = [LongTap, DoubleTap]
         TabOrder = 0
         KeyboardType = EmailAddress
+        Text = 'email@email.com'
         TextSettings.Font.Family = 'Arial Rounded MT'
         TextSettings.Font.Size = 18.000000000000000000
         Position.X = 13.000000000000000000
@@ -54,6 +53,7 @@ object Form1: TForm1
         Touch.InteractiveGestures = [LongTap, DoubleTap]
         TabOrder = 1
         Password = True
+        Text = 'password'
         TextSettings.Font.Family = 'Arial'
         TextSettings.Font.Size = 18.000000000000000000
         Position.X = 12.000000000000000000
@@ -124,14 +124,12 @@ object Form1: TForm1
       CustomIcon = <
         item
         end>
-      IsSelected = False
+      IsSelected = True
       Size.Width = 16.000000000000000000
       Size.Height = 26.000000000000000000
       Size.PlatformDefault = False
       StyleLookup = ''
       TabOrder = 0
-      ExplicitSize.cx = 16.000000000000000000
-      ExplicitSize.cy = 26.000000000000000000
       object ListView1: TListView
         ItemAppearanceClassName = 'TDynamicAppearance'
         ItemEditAppearanceClassName = 'TDynamicAppearance'
@@ -218,8 +216,6 @@ object Form1: TForm1
       Size.PlatformDefault = False
       StyleLookup = ''
       TabOrder = 0
-      ExplicitSize.cx = 16.000000000000000000
-      ExplicitSize.cy = 26.000000000000000000
     end
   end
 end

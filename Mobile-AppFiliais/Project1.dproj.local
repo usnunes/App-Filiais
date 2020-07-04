@@ -6,14 +6,14 @@
     <Transaction>2020/04/18 09:44:08.000.606,=C:\Users\Cristiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2020/06/29 22:37:57.000.868,=C:\Users\Cristiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2020/07/03 16:20:51.000.722,=C:\Users\Cristiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2020/07/03 16:21:11.000.808,C:\Users\Cristiano\Desktop\teste\Unit1.fmx=C:\Users\Cristiano\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
-    <Transaction>2020/07/03 16:21:11.000.808,C:\Users\Cristiano\Desktop\teste\Unit1.pas=C:\Users\Cristiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2020/07/03 16:21:12.000.676,C:\Users\Cristiano\Desktop\teste\Project1.dproj=C:\Users\Cristiano\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/07/03 16:21:11.000.808,C:\Users\Cristiano\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Cristiano\Desktop\teste\Unit1.pas</Transaction>
+    <Transaction>2020/07/03 16:21:11.000.808,C:\Users\Cristiano\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Cristiano\Desktop\teste\Unit1.fmx</Transaction>
+    <Transaction>2020/07/03 16:21:12.000.676,C:\Users\Cristiano\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Cristiano\Desktop\teste\Project1.dproj</Transaction>
     <Transaction>2020/07/03 16:21:39.000.519,=C:\Users\Cristiano\Desktop\teste\Unit2.pas</Transaction>
-    <Transaction>2020/07/03 16:22:00.000.301,C:\Users\Cristiano\Desktop\teste\uDM.dfm=C:\Users\Cristiano\Desktop\teste\Unit2.dfm</Transaction>
-    <Transaction>2020/07/03 16:22:00.000.301,C:\Users\Cristiano\Desktop\teste\uDM.pas=C:\Users\Cristiano\Desktop\teste\Unit2.pas</Transaction>
+    <Transaction>2020/07/03 16:22:00.000.301,C:\Users\Cristiano\Desktop\teste\Unit2.dfm=C:\Users\Cristiano\Desktop\teste\uDM.dfm</Transaction>
+    <Transaction>2020/07/03 16:22:00.000.301,C:\Users\Cristiano\Desktop\teste\Unit2.pas=C:\Users\Cristiano\Desktop\teste\uDM.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile Android="" Android64="RX8N10AYFRP"/>
+		<NoProfile Android="" Android64=""/>
 	</ActiveMobileDevice>
 </BorlandProject>
